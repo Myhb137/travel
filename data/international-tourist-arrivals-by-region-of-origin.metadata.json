@@ -1,0 +1,45 @@
+{
+  "chart": {
+    "title": "International tourist arrivals by region of origin",
+    "note": "Each border crossing counts as one arrival. For example, a Japanese resident visiting both Brazil and Argentina on a single trip contributes two arrivals from East Asia and the Pacific to the global total, not one.",
+    "citation": "UN Tourism (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/international-tourist-arrivals-by-region-of-origin?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Other Not Classified (UNWTO)",
+      "South Asia (UNWTO)",
+      "Middle East (UNWTO)",
+      "Africa (UNWTO)",
+      "Americas (UNWTO)",
+      "East Asia and the Pacific (UNWTO)",
+      "Europe (UNWTO)"
+    ]
+  },
+  "columns": {
+    "International tourist arrivals by region of origin": {
+      "titleShort": "International tourist arrivals by region of origin",
+      "titleLong": "International tourist arrivals by region of origin",
+      "descriptionShort": "Global number of arrivals by people travelling from abroad and staying overnight, broken down by the region where visitors reside. Data for the latest years is preliminary because not all countries have reported arrivals by region of origin yet.",
+      "descriptionKey": [
+        "Each trip by the same person is counted separately.",
+        "When an individual visits a country multiple times within a year, each visit is counted as a separate arrival.",
+        "Similarly, if a person travels to multiple countries during a single trip, their arrival in each country is recorded individually.",
+        "As a result, the number of arrivals does not necessarily reflect the number of individuals traveling, as one person can generate multiple arrivals.",
+        "The country linked to the departure should correspond to the visitor's country of residence.",
+        "However, some countries deviate from UN Tourism recommendations and classify their nationals residing abroad as a distinct category, rather than as residents of those countries."
+      ],
+      "descriptionProcessing": "We calculate this indicator by summing the arrivals from each UNWTO region across all destination countries for each year. Because each destination country reports arrivals from each region separately, a tourist who visits multiple countries on a single trip is counted once for each country visited.",
+      "unit": "arrivals",
+      "timespan": "1995-2024",
+      "type": "Integer",
+      "owidVariableId": 1146092,
+      "shortName": "inbound_tourism_by_region",
+      "lastUpdated": "2026-01-21",
+      "nextUpdate": "2027-01-21",
+      "citationShort": "UN Tourism (2025) – processed by Our World in Data",
+      "citationLong": "UN Tourism (2025) – processed by Our World in Data. “International tourist arrivals by region of origin” [dataset]. UN Tourism, “UN Tourism Statistics Database” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1146092.metadata.json"
+    }
+  },
+  "dateDownloaded": "2026-04-09",
+  "activeFilters": {}
+}
